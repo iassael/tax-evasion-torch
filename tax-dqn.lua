@@ -47,7 +47,7 @@ cmd:option('-closureprob', 0.2, 'probability that closure will be available')
 cmd:option('-closureperi', 0, 'probability that closure will be available')
 
 -- training
-cmd:option('-bs', 100, 'bitch size')
+cmd:option('-bs', 100, 'batch size')
 cmd:option('-nepisodes', 50000, 'number of episodes')
 cmd:option('-nsteps', 250, 'number of steps')
 
